@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    background-color: red;
+    padding: 1rem 6rem;
+    border-color: lightgray;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.column.align-center {
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 2.0;
+}
+
+ul.d-flex {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rebeccapurple;
+
+}
