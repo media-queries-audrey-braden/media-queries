@@ -22,7 +22,7 @@ div.header-img {
 
 }
 
- img{
+ img {
      aspect-ratio: 4/2;
      max-width: 50%;
  }
@@ -73,8 +73,18 @@ ul li {
         border: unset;
         background-color: unset;
         margin: 0;
-        padding: 2rem;
+
     }
+
+   div.main-text {
+        max-width: 50%;
+    }
+   div.sub-text {
+       max-width: 50%;
+   }
+   div.text-boxes {
+       flex-direction: row;
+   }
 
     /* ul.nav-links {*/
     /*      border:1px;*/
